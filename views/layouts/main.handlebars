@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A mission: Tech Blog</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+        <h1 class="main text-center">A mission: Tech Blog</h1>
+  <div class="wrapper">
+    <header>
+      <h1 class="top">
+        <a href="/">Homepage</a>
+      </h1>
+        {{#if loggedIn}}
+        <a href="/dashboard" class="top">Dashboard</a>
+        <button id="logout" class="btn-no-style top">Logout</button>
+        {{else}}
+        <a href="/login" class="top">Dashboard</a>
+        <a href="/login" class="top">Login</a>
+        {{/if}}
+    </header>
+    <main>
+      {{{ body }}}
+    </main>
+  </div>
+  {{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}
+</body>
+
+</html>
