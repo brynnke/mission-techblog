@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/brynnke/mission-techblog#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express-session": "^1.17.3",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
   }
 }
