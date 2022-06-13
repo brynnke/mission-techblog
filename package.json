@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brynnke/mission-techblog/issues"
   },
-  "homepage": "https://github.com/brynnke/mission-techblog#readme"
+  "homepage": "https://github.com/brynnke/mission-techblog#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
