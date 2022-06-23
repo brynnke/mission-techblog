@@ -55,4 +55,4 @@ Dotenv packages
 bcrypt
 
 ## deployed location
-https://crabsalad.herokuapp.com/
+https://gentle-falls-48534.herokuapp.com/
